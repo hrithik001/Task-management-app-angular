@@ -1,0 +1,5 @@
+<nav class="nav">
+  @for (data of boardData; track $index) { @if (data.name===activeBoard?.name) {
+  <h2 class="active-project-name">{{ data.name }}</h2>
+  } }
+</nav>

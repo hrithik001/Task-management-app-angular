@@ -1,0 +1,85 @@
+<!-- <h3 mat-dialog-title>Add Task</h3> -->
+
+<div class="board-model-card task-card">
+  <!-- <span class="cross-btn" mat-dialog-close>X</span> -->
+  <div>
+    <h3>New Task</h3>
+  </div>
+
+  <div class="form-group">
+    <label for="task-name-input" class="labels">Task Name</label>
+    <input
+      id="task-name-input"
+      type="text"
+      placeholder="e.g., Take coffee break"
+      class="input-area-task"
+      name="title"
+      [(ngModel)]="taskName"
+    />
+
+    <!-- <div *ngIf="!taskName" class="invalid-feedback">Task name is required.</div> -->
+  </div>
+
+  <div class="form-group date-group form-align dates-mod">
+    <label for="starting-date-input" class="labels">Starting Date</label>
+    <input
+      id="starting-date-input"
+      type="date"
+      name="startingDate"
+      class="dates-input"
+      [(ngModel)]="taskStartingDate"
+    />
+    <!-- <div *ngIf="!taskStartingDate" class="invalid-feedback">
+      Starting date is required.
+    </div> -->
+    <!-- <br /> -->
+    <label for="finish-date-input" class="labels">Finish Date</label>
+    <input
+      id="finish-date-input"
+      type="date"
+      name="finishDate"
+      class="dates-input"
+      [(ngModel)]="taskDueDate"
+    />
+    <!-- <div *ngIf="!taskDueDate" class="invalid-feedback">
+      Finished date is required.
+    </div> -->
+  </div>
+
+  <div class="form-group">
+    <label for="select-status" class="labels">Current Status</label>
+    <select
+      class="input-area-task"
+      id="select-status"
+      name="status"
+      [(ngModel)]="taskStatus"
+    >
+      <option
+        *ngFor="let column of statusOptions; index as i"
+        [value]="column.value"
+        class="change-color"
+      >
+        {{ column.label }}
+      </option>
+    </select>
+  </div>
+
+  <button
+    type="submit"
+    class="sidebar-item add-task"
+    (click)="addTask()"
+    mat-dialog-close
+  >
+    Add Task
+  </button>
+</div>
+
+<!-- <mat-dialog-content
+  >This dialog showcases the title, close, content and actions
+  elements.</mat-dialog-content
+>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions> -->
+
+<!-- <button mat-button mat-dialog-close>Close</button> -->

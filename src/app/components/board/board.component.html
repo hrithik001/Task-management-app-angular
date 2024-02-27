@@ -1,0 +1,94 @@
+<div class="container">
+  <main class="board">
+    <div class="column" id="todo">
+      <h3>Todo ( {{ showproject.columns[0].tasks.length }} ) Items</h3>
+      <hr />
+      <ng-container *ngFor="let data of showproject.columns[0].tasks">
+        <app-show-task [taskData]="data"></app-show-task
+      ></ng-container>
+      <button class="sidebar-item add-task" (click)="addTask()">
+        + Add Task
+      </button>
+    </div>
+    <div class="column" id="todo">
+      <h3>In Progress ( {{ showproject.columns[1].tasks.length }} ) Items</h3>
+      <hr />
+      <ng-container *ngFor="let data of showproject.columns[1].tasks">
+        <app-show-task [taskData]="data"></app-show-task
+      ></ng-container>
+      <button class="sidebar-item add-task" (click)="addTask()">
+        + Add Task
+      </button>
+    </div>
+    <div class="column" id="todo">
+      <h3>In review ( {{ showproject.columns[2].tasks.length }} ) Items</h3>
+      <hr />
+      <ng-container *ngFor="let data of showproject.columns[2].tasks">
+        <app-show-task [taskData]="data"></app-show-task
+      ></ng-container>
+      <button class="sidebar-item add-task" (click)="addTask()">
+        + Add Task
+      </button>
+    </div>
+    <div class="column" id="todo">
+      <h3>Completed ( {{ showproject.columns[3].tasks.length }} ) Items</h3>
+      <hr />
+      <ng-container *ngFor="let data of showproject.columns[3].tasks">
+        <app-show-task [taskData]="data"></app-show-task
+      ></ng-container>
+      <button class="sidebar-item add-task" (click)="addTask()">
+        + Add Task
+      </button>
+    </div>
+
+    <!-- <div class="column" id="inprogress">
+      <h3>In Progress</h3>
+      <ng-container *ngFor="let data of todotasks">
+        @if (data.status=='inprogress' && data.projectId===activeProjectId) {
+        <app-task [task]="data"></app-task>
+        }
+      </ng-container>
+      <button class="sidebar-item add-task" (click)="openTaskDialogBox()">
+        + Add Task
+      </button>
+    </div>
+
+    <div class="column" id="inreview">
+      <h3>In Review</h3>
+      <ng-container *ngFor="let data of todotasks">
+        @if (data.status=='inreview' && data.projectId===activeProjectId) {
+        <app-task [task]="data"></app-task>
+        }
+      </ng-container>
+      <button class="sidebar-item add-task" (click)="openTaskDialogBox()">
+        + Add Task
+      </button>
+    </div>
+
+    <div class="column" id="completed">
+      <h3>Completed</h3>
+      <ng-container *ngFor="let data of todotasks">
+        @if (data.status=='completed' && data.projectId===activeProjectId) {
+        <app-task [task]="data"></app-task>
+        }
+      </ng-container>
+      <button class="sidebar-item add-task" (click)="openTaskDialogBox()">
+        + Add Task
+      </button>
+    </div> -->
+  </main>
+</div>
+
+<!-- <div>
+  <ng-container *ngIf="showproject?.columns?.length; else showEmpty">
+    <div *ngFor="let column of showproject?.columns; let i; for: index">
+      <span>{{ column?.name }} {{ column?.tasks?.length }}</span>
+    </div>
+  </ng-container>
+</div>
+ <button (click)="show()" style="height: 50px">get data</button> -->
+<!-- <ng-template #showEmpty>
+  <div>
+    <h3>no board</h3>
+  </div>
+</ng-template>  -->

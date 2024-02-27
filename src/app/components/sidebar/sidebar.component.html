@@ -1,0 +1,17 @@
+<div class="sidebar">
+  <div class="logo-and-name">
+    <img src="assets/logo.svg" alt="no image" class="sidebar-nav-items" />
+    <h2 class="sidebar-nav-items">Task management</h2>
+  </div>
+  <hr />
+  <div class="project-names">
+    <h3>Total Project : ( {{ boardData.length }} )</h3>
+    <ng-container *ngFor="let project of boardData; let i = index">
+      <app-projectname
+        [projectName]="project.name"
+        (click)="selectProject(i)"
+      ></app-projectname>
+    </ng-container>
+    <button class="btn" (click)="addProject()">+ Add project</button>
+  </div>
+</div>

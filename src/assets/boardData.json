@@ -1,0 +1,265 @@
+{
+  "boards": [
+    {
+      "name": "Freelance Project",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Build UI for onboarding flow",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020",
+              "status": "Todo"
+            },
+            {
+              "title": "Build UI for search",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020",
+              "status": "Todo"
+            },
+            {
+              "title": "Build settings UI",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020",
+              "status": "Todo"
+            },
+            {
+              "title": "QA and test all major user journeys",
+              "description": "Once we feel version one is ready, we need to rigorously test it both internally and externally to identify any major gaps.",
+              "status": "Todo",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        },
+        {
+          "name": "InProgress",
+          "tasks": [
+            {
+              "title": "Design settings and search pages",
+
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Add account management endpoints",
+
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Design onboarding flow",
+
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Add search enpoints",
+
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Add authentication endpoints",
+
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Research pricing points of various competitors and trial different business models",
+              "status": "InProgress",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        },
+        {
+          "name": "InReview",
+          "tasks": [
+            {
+              "title": "Conduct 5 wireframe tests",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Create wireframe prototype",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Review results of usability tests and iterate",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Create paper prototypes and conduct 10 usability tests with potential customers",
+
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Market discovery",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Competitor analysis",
+
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Research the market",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        },
+        {
+          "name": "Completed",
+          "tasks": [
+            {
+              "title": "Create paper prototypes and conduct 10 usability tests with potential customers",
+
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Market discovery",
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Competitor analysis",
+
+              "status": "InReview",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SBI Outsource",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Plan Product Hunt launch",
+
+              "status": "Todo",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Share on Show HN",
+
+              "status": "",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Write launch article to publish on multiple channels",
+
+              "status": "",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        },
+        {
+          "name": "InProgress",
+          "tasks": []
+        },
+        {
+          "name": "InReview",
+          "tasks": []
+        },
+        {
+          "name": "Completed",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "HPCL Project 1",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Launch version one",
+
+              "status": "",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            },
+            {
+              "title": "Review early feedback and plan next steps for roadmap",
+              "status": "",
+
+              "startingDate": "1/8/2020",
+              "finishDate": "2/8/2020"
+            }
+          ]
+        },
+        {
+          "name": "InProgress",
+          "tasks": []
+        },
+        {
+          "name": "InReview",
+          "tasks": []
+        },
+        {
+          "name": "Completed",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}

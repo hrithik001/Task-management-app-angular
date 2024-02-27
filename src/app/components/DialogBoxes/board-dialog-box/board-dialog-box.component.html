@@ -1,0 +1,20 @@
+<div class="board-model-card">
+  <h2 mat-dialog-title>Add Project Name</h2>
+  <input
+    type="text"
+    placeholder="Project name"
+    class="input-area space"
+    [(ngModel)]="projectName"
+  />
+
+  <mat-dialog-actions>
+    <button
+      mat-button
+      mat-dialog-close
+      (click)="addProjectName()"
+      class="sidebar-nav-items btn"
+    >
+      + ADD
+    </button>
+  </mat-dialog-actions>
+</div>
