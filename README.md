@@ -1,27 +1,35 @@
-# Newtodo
+# Task Stage Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+This project is a comprehensive task management application that allows users to efficiently manage their tasks through interactive design. The application is built using Angular and Bootstrap, providing an organized workflow for categorizing and tracking tasks.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Task Categorization**: Users can categorize tasks into stages such as "Todo," "In Progress," and "Completed."
+- **Task Tracking**: Enables easy tracking and shifting of tasks between different stages based on the user's workflow.
+- **Project Management**: Users can create and manage multiple projects, facilitating organized task management for different aspects of their work.
+- **User-Friendly Interface**: Designed with an intuitive interface for ease of use.
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend**: Angular, Bootstrap
 
-## Build
+## Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Deployed**: [Task Management App](https://task-management-app-angular.vercel.app/))
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Create Project**: Create a new project to start managing tasks.
+2. **Add Tasks**: Add tasks to your project and categorize them into different stages.
+3. **Manage Tasks**: Move tasks between stages (Todo, In Progress, Completed) as you work on them.
+4. **View Projects**: Manage and view all your projects from the dashboard.
 
-## Further help
+## Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions are welcome! If you have any ideas or suggestions, feel free to open an issue or submit a pull request.
+
+
+
+Thank you for checking out the Task Stage Management Application! Happy coding!
